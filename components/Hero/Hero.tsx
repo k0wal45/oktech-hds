@@ -11,8 +11,8 @@ const Hero = () => {
     >
       <section className="flex flex-col gap-12 items-start justify-start lg:w-1/2  p-6 py-12 lg:p-24 lg:py-36">
         <Reveal>
-          <h1 className="text-6xl lg:text-8xl font-bold text-white max-w-xl">
-            Usługi Przewozu HDS
+          <h1 className="text-6xl lg:text-8xl font-bold text-white max-w-4xl">
+            Usługi Przwozu HDS i Zwyżki
           </h1>
         </Reveal>
 

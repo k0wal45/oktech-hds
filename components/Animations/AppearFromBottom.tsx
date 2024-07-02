@@ -23,7 +23,7 @@ const AppearFromBottom = ({ children }: any) => {
       variants={{
         hidden: {
           opacity: 0,
-          y: 100,
+          y: 75,
         },
         visible: {
           opacity: 1,
@@ -32,7 +32,7 @@ const AppearFromBottom = ({ children }: any) => {
       }}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 0.35, ease: "easeInOut", delay: 0.4 }}
+      transition={{ duration: 0.6, ease: "easeInOut", delay: 0.2 }}
     >
       {children}
     </motion.div>

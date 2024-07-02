@@ -13,16 +13,17 @@ const Services = () => {
           <div className="text-primary">
             <FaHelmetSafety />
           </div>
-          <h3>Service</h3>
+          <h3>Usługi</h3>
         </div>
       </AppearFromLeft>
 
       <AppearFromLeft>
         <p className="text-3xl font-bold">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-          doloremque provident libero, quaerat, molestias totam pariatur ullam
-          minima vel sint accusamus itaque voluptatum quam laborum voluptatem
-          dicta ratione iste sit!
+          Nasza firma specjalizuje się w profesjonalnych usługach transportu HDS
+          na terenie Katowic i całego Śląska. Oferujemy kompleksowe rozwiązania,
+          w tym transport i załadunek kontenerów, przewóz materiałów
+          budowlanych, relokację maszyn i urządzeń przemysłowych oraz transport
+          elementów infrastruktury.
         </p>
       </AppearFromLeft>
 
