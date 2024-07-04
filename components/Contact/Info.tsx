@@ -5,7 +5,7 @@ import AppearFromBottom from "../Animations/AppearFromBottom";
 
 const Info = () => {
   return (
-    <section className="mx-12 p-4 lg:p-8 flex flex-wrap gap-12 items-start justify-around bg-secondary rounded-[3rem]">
+    <section className="mx-6 lg:mx-12 p-6 lg:p-8 flex flex-wrap gap-12 items-start justify-start lg:justify-around bg-secondary rounded-3xl">
       {/* card */}
       <div className="flex gap-4 items-start text-2xl text-primary">
         <FaPhone />

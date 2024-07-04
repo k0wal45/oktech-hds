@@ -7,12 +7,12 @@ import Reveal from "../Animations/Reveal";
 const Hero = () => {
   return (
     <header
-      className={`${classes.bgFixed} bg-cover h-fit m-6 lg:m-12 my-16 lg:my-20 rounded-[3rem] flex flex-col lg:flex-row items-end justify-between overflow-hidden`}
+      className={`${classes.bgFixed} min-h-[90vh] bg-cover h-fit m-6 lg:m-12 my-16 lg:my-20 rounded-3xl flex flex-col lg:flex-row items-end justify-between overflow-hidden`}
     >
-      <section className="flex flex-col gap-12 items-start justify-start lg:w-1/2  p-6 py-12 lg:p-24 lg:py-36">
+      <section className="flex flex-col lg:h-[90vh] gap-12 items-start justify-start lg:w-1/2 p-6 py-12 lg:p-24 lg:py-36">
         <Reveal>
           <h1 className="text-6xl lg:text-8xl font-bold text-white max-w-4xl">
-            Usługi Przwozu HDS i Zwyżki
+            Usługi Przewozu HDS i Zwyżki
           </h1>
         </Reveal>
 

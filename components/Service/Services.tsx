@@ -42,7 +42,9 @@ const Services = () => {
               <h4 className="text-xl font-bold">{service.title}</h4>
             </AppearFromBottom>
             <AppearFromBottom>
-              <p className="text-light text-lg">{service.description}</p>
+              <p className="text-light text-lg text-neutral-600">
+                {service.description}
+              </p>
             </AppearFromBottom>
           </div>
         ))}
