@@ -49,7 +49,7 @@ const FAQ = () => {
           ipsa excepturi earum.
         </p>
         {data.map((question: Question, index: number) => (
-          <FAQItem title={question.question}>
+          <FAQItem title={question.question} key={index}>
             <p>{question.answer}</p>
           </FAQItem>
         ))}

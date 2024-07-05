@@ -1,23 +1,22 @@
 import Info from "@/components/Contact/Info";
-import ContactPanel from "@/components/ContactPanel";
 import Expert from "@/components/Expert/Expert";
 import FAQ from "@/components/FAQ/FAQ";
-import Galery from "@/components/Galery/Galery";
-import Hero from "@/components/Hero/Hero";
+import Pricing from "@/components/Service/Pricing";
 import Services from "@/components/Service/Services";
 import Step from "@/components/Steps/Step";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
     <main>
-      <Hero />
+      <Pricing />
       <Info />
       <Services />
-      <Galery />
-      <ContactPanel />
       <Step />
       <Expert />
       <FAQ />
     </main>
   );
-}
+};
+
+export default page;

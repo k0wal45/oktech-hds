@@ -20,7 +20,7 @@ const ContactPanel = () => {
           <p className="aspect-square rounded-full bg-neutral-900 p-4 text-3xl text-white">
             <FaClock />
           </p>
-          <p className="text-3xl font-bold">Dostępna od zaraz</p>
+          <p className="text-3xl font-bold">Dostępni od zaraz</p>
         </div>
       </AppearFromBottom>
       <AppearFromRight>

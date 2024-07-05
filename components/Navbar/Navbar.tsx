@@ -90,6 +90,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link className="z-20" onClick={handleLinkClick} href="/galeria">
+              Galeria
+            </Link>
+          </li>
+          <li>
             <BtnLink link="https://booksy.com/pl-pl/101806_perfect-skin-centrum-kosmetologii_inni_12311_chorzow#ba_s=seo">
               <FaPhone /> Zadzwoń już teraz
             </BtnLink>
@@ -131,6 +136,14 @@ const Navbar = () => {
             className="hover:underline active:text-primary transition-colors duration-100"
           >
             O Nas
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/galeria"
+            className="hover:underline active:text-primary transition-colors duration-100"
+          >
+            Galeria
           </Link>
         </li>
       </ul>
