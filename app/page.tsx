@@ -1,5 +1,6 @@
 import Info from "@/components/Contact/Info";
 import Expert from "@/components/Expert/Expert";
+import FAQ from "@/components/FAQ/FAQ";
 import Galery from "@/components/Galery/Galery";
 import Hero from "@/components/Hero/Hero";
 import Services from "@/components/Service/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <Galery />
       <Step />
       <Expert />
+      <FAQ />
     </main>
   );
 }
