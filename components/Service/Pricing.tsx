@@ -1,6 +1,6 @@
 import Link from "next/link";
 import classes from "../Expert/expert.module.css";
-import { FaPerson } from "react-icons/fa6";
+import { FaGears } from "react-icons/fa6";
 
 const Pricing = () => {
   return (
@@ -13,7 +13,7 @@ const Pricing = () => {
       <div className="container mx-auto flex flex-col items-center gap-8 z-20">
         <div className="text-2xl flex items-center gap-4 text-center font-bold z-20 text-white">
           <div className="text-primary">
-            <FaPerson />
+            <FaGears />
           </div>
           <h1>Usługi HDS i Zwyżka</h1>
         </div>

@@ -12,7 +12,7 @@ const ContactPanel = () => {
           <p className="aspect-square rounded-full bg-neutral-900 p-4 text-3xl text-primary">
             <FaPhoneAlt />
           </p>
-          <p className="whitespace-nowrap text-3xl font-bold">533 25 44 26</p>
+          <p className="whitespace-nowrap text-3xl font-bold">604 47 66 47</p>
         </div>
       </AppearFromLeft>
       <AppearFromBottom>

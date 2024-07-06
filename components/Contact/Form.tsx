@@ -11,9 +11,10 @@ const Form = () => {
     email: "",
     phone: "",
     message: "",
+    type: "",
   });
 
-  const { name, email, phone, message } = formData;
+  const { name, email, phone, message, type } = formData;
 
   const form: any = useRef();
 
@@ -187,6 +188,7 @@ const Form = () => {
       email: "",
       phone: "",
       message: "",
+      type: "",
     });
 
     toast.success("Sukces", {
@@ -204,45 +206,55 @@ const Form = () => {
   return (
     <Fragment>
       <form
-        className="p-8 w-full max-w-4xl bg-neutral-100 flex flex-col gap-4"
+        className="p-8 w-full max-w-4xl flex flex-col gap-4 flex-1 h-full"
         onSubmit={handleSubmit}
         ref={form}
       >
-        <p className="text-lg font-bold text-secondary">Masz pytania?</p>
-        <p className="text-4xl font-bold">Napisz tutaj!</p>
+        <div className="flex gap-2 w-full">
+          <input
+            placeholder="Imię i Nazwisko"
+            type="text"
+            name="name"
+            id="name"
+            onChange={onMutate}
+            value={name}
+            className="w-full bg-white p-4 border-2 border-base rounded-md focus:bg-white autofill:bg-white outlne-white ring-white flex-1"
+            required
+          />
 
-        <input
-          placeholder="Imię i Nazwisko"
-          type="text"
-          name="name"
-          id="name"
-          onChange={onMutate}
-          value={name}
-          className="w-full bg-white p-4 border-2 border-base rounded-xl focus:bg-white autofill:bg-white outlne-white ring-white"
-          required
-        />
-
-        <input
-          placeholder="Email"
-          type="email"
-          name="email"
-          id="email"
-          onChange={onMutate}
-          value={email}
-          className="w-full bg-white p-4 border-2 border-base rounded-xl focus:bg-white autofill:bg-white outlne-white ring-white"
-          required
-        />
-
-        <input
-          placeholder="Numer Telefonu"
-          type="number"
-          name="phone"
-          id="phone"
-          onChange={onMutate}
-          value={phone}
-          className="w-full bg-white p-4 border-2 border-base rounded-xl focus:bg-white autofill:bg-white outlne-white ring-white"
-          required
-        />
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            id="email"
+            onChange={onMutate}
+            value={email}
+            className="w-full bg-white p-4 border-2 border-base rounded-md focus:bg-white autofill:bg-white outlne-white ring-white flex-1"
+            required
+          />
+        </div>
+        <div className="flex gap-2 w-full">
+          <input
+            placeholder="Numer Telefonu"
+            type="number"
+            name="phone"
+            id="phone"
+            onChange={onMutate}
+            value={phone}
+            className="w-full bg-white p-4 border-2 border-base rounded-md focus:bg-white autofill:bg-white outlne-white ring-white flex-1"
+            required
+          />
+          <input
+            placeholder="Rodzaj usługi"
+            type="text"
+            name="type"
+            id="type"
+            onChange={onMutate}
+            value={type}
+            className="w-full bg-white p-4 border-2 border-base rounded-md focus:bg-white autofill:bg-white outlne-white ring-white flex-1"
+            required
+          />
+        </div>
 
         <textarea
           placeholder="Wiadomość"
@@ -250,7 +262,7 @@ const Form = () => {
           id="message"
           onChange={onMutate}
           value={message}
-          className="w-full h-48 bg-white p-4 border-2 border-base rounded-xl focus:bg-white autofill:bg-white outlne-white ring-white"
+          className="w-full h-48 bg-white p-4 border-2 border-base rounded-md focus:bg-white autofill:bg-white outlne-white ring-white flex-1 min-h-48"
           required
         />
 
