@@ -277,7 +277,7 @@ const Form = () => {
           <label htmlFor="accept" className="text-xs text-neutral-700 w-full">
             Akceptując, wyrażasz zgodę na przetwarzanie Twoich danych osobowych
             przez właściciela strony oraz na otrzymywanie ofert i informacji
-            handlowych na podany adres e-mail lub numer telefonu."
+            handlowych na podany adres e-mail lub numer telefonu.
           </label>
         </div>
 
