@@ -23,11 +23,11 @@ const Expert = () => {
           <div className="text-primary">
             <FaPerson />
           </div>
-          <h4>Usługi</h4>
+          <h4>Eksperci</h4>
         </div>
 
         <p className="text-5xl font-bold text-center z-20">
-          Od Telefonu Po Realizacje
+          Wieloletnie Doświadczenie
         </p>
         <Link
           href="/kontakt"
@@ -56,8 +56,8 @@ const Expert = () => {
                 Tyle lat doświadczenia ma nasza firma
               </p>
               <p className="text-xl text-neutral-500">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
-                eveniet.
+                Nasze wieloletnie doświadczenie przekłada się na jakość i
+                niezawodność naszych usług.
               </p>
             </div>
           </div>

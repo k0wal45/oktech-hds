@@ -3,7 +3,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className=" flex w-full flex-col items-center justify-between gap-8 p-4 text-xl lg:flex-row lg:px-12 text-center">
+    <footer className="flex w-full flex-col items-center justify-between gap-8 p-4 text-xl lg:flex-row lg:px-12 text-center">
       <p>Copyright © {year} - All right reserved</p>
       <p>
         Created by:{" "}

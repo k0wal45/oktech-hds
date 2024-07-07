@@ -10,7 +10,7 @@ const FAQItem = ({
   defaultOpen = false,
 }: {
   title: string;
-  children: JSX.Element;
+  children: string;
   defaultOpen?: boolean;
 }) => {
   const [ref, { height }] = useMeasure();

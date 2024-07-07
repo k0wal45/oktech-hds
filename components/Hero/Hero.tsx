@@ -33,7 +33,8 @@ const Hero = () => {
           <div className="flex flex-col gap-12">
             <Reveal>
               <p className="max-w-md text-2xl text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                Firma z wieloletnim doświadczeniem w branży HDS, zwyżki i wiele
+                innych
               </p>
             </Reveal>
             <Reveal>

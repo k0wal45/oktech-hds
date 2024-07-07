@@ -13,23 +13,24 @@ const FAQ = () => {
     <section className="flex flex-col lg:flex-row gap-8 items-center justify-center max-w-6xl mx-auto p-4">
       <div className="flex-1 flex flex-col justify-end items-start w-full lg:w-[30rem] aspect-square relative p-8 rounded-xl overflow-hidden">
         <ul className="flex flex-col gap-4">
-          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg">
+          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg whitespace-nowrap w-fit">
             <p className="text-primary">
               <FaCheck />
             </p>
-            Lorem, ipsum.
+            +48 604 47 66 47
           </li>
-          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg">
+          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg whitespace-nowrap w-fit">
             <p className="text-primary">
               <FaCheck />
             </p>
-            Lorem, ipsum.
+            +48 604 47 66 47
           </li>
-          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg">
+
+          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg whitespace-nowrap w-fit">
             <p className="text-primary">
               <FaCheck />
             </p>
-            Lorem, ipsum.
+            kontenerserwis@interia.pl
           </li>
         </ul>
         <Image
@@ -42,15 +43,14 @@ const FAQ = () => {
       </div>
 
       <div className="px-4 py-12 flex-1">
-        <h6 className="mb-4 text-5xl font-bold">Frequently asked questions</h6>
+        <h6 className="mb-4 text-5xl font-bold">Często zadawane pytania</h6>
         <p className="text-xl font-neutral-600">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus eveniet porro neque commodi quia tempore asperiores, ut
-          ipsa excepturi earum.
+          Znajdziesz tu odpowiedzi na najczeście zadawanie pytania o HDS i
+          zwyżkę. Jeżeli nie ma tu odpowiedzi na twoje pytanie, zadzwoń do nas!
         </p>
         {data.map((question: Question, index: number) => (
           <FAQItem title={question.question} key={index}>
-            <p>{question.answer}</p>
+            {question.answer}
           </FAQItem>
         ))}
       </div>

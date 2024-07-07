@@ -4,7 +4,7 @@ import { FaGears } from "react-icons/fa6";
 
 const Pricing = () => {
   return (
-    <section
+    <header
       className={
         classes.bgBoxes +
         " m-4 lg:m-12 rounded-2xl mt-16 lg:mt-16 p-4 py-16 relative overflow-hidden"
@@ -71,7 +71,7 @@ const Pricing = () => {
           classes.bgRoudedMask + " absolute top-0 left-0 w-full h-full z-10"
         }
       ></div>
-    </section>
+    </header>
   );
 };
 
