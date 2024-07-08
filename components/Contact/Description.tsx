@@ -7,8 +7,8 @@ const Description = () => {
     <div className="flex flex-col gap-6 flex-1">
       <h1 className="text-5xl font-bold">Skontaktuj się</h1>
       <p className="text-xl text-neutral-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eos
-        quidem dolor reprehenderit!
+        Jeśli potrzebujesz usłgu przewozu, HDS-a lub zwyżki to napisz do nas
+        wiadomość lub zadzwoń na jeden z numerów
       </p>
       <div className="flex gap-4">
         <div className="flex items-center  text-xl gap-2 font-semibold">

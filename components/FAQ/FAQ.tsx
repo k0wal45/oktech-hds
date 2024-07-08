@@ -65,7 +65,7 @@ const data = [
     question:
       "Jakie są maksymalne wymiary i waga ładunku, który możecie przewieźć przy użyciu HDS?",
     answer:
-      "Nasze pojazdy HDS mogą przewozić ładunki o maksymalnej wadze do [wagi] ton i wymiarach do [wymiary]. Skontaktuj się z nami, aby omówić szczegółowe wymagania dotyczące Twojego ładunku.",
+      "Nasze pojazdy HDS mogą przewozić ładunki o maksymalnej wadze do 7 ton i wymiarach do 7,5m x 2.5m. Skontaktuj się z nami, aby omówić szczegółowe wymagania dotyczące Twojego ładunku.",
   },
   {
     question:
@@ -77,6 +77,6 @@ const data = [
     question:
       "Jak daleko od pojazdu może znajdować się obiekt, który ma być obsłużony przez zwyżkę lub HDS?",
     answer:
-      "Zasięg naszych dźwigów HDS wynosi do [odległość] metrów. Skontaktuj się z nami, aby uzyskać więcej informacji na temat specyficznych wymagań Twojego zlecenia.",
+      "Zasięg naszych dźwigów HDS wynosi do 10 metrów. Skontaktuj się z nami, aby uzyskać więcej informacji na temat specyficznych wymagań Twojego zlecenia.",
   },
 ];

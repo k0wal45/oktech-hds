@@ -5,7 +5,7 @@ import AppearFromBottom from "../Animations/AppearFromBottom";
 const LineItem = ({ data, index }: { data: any; index: number }) => {
   return (
     <div className="flex flex-col lg:odd:flex-row lg:even:flex-row-reverse lg:gap-8 items-center justify-center w-full lg:h-[30rem] max-w-7xl">
-      {/* left */}
+      {/* 1 side */}
 
       <div className="flex-1 flex flex-col items-start justify-center gap-4">
         <AppearFromBottom>
@@ -25,15 +25,15 @@ const LineItem = ({ data, index }: { data: any; index: number }) => {
         <div className="size-8 bg-primary rounded-full z-20 translate-x-[1px]"></div>
       </div>
 
-      {/* right */}
+      {/* 2 side */}
       <div className="flex-1 py-12">
         <AppearFromBottom>
           <Image
             width={700}
             height={500}
             alt=""
-            src="/img/sunset.jpg"
-            className="rounded-xl object-cover max-h-full"
+            src={"/img/" + data.img}
+            className="rounded-xl object-cover h-full"
           />
         </AppearFromBottom>
       </div>

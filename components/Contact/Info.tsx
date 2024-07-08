@@ -19,7 +19,7 @@ const Info = () => {
             </li>
             <li>
               <AppearFromBottom>
-                <a href="tel:+48604476647">+48 604 47 66 47</a>
+                <a href="tel:+48608403675">+48 608 403 675</a>
               </AppearFromBottom>
             </li>
           </ul>

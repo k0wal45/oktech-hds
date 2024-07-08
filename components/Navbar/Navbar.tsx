@@ -79,11 +79,7 @@ const Navbar = () => {
               Strona Główna
             </Link>
           </li>
-          <li>
-            <Link className="z-20" onClick={handleLinkClick} href="/cennik">
-              cennik
-            </Link>
-          </li>
+
           <li>
             <Link className="z-20" onClick={handleLinkClick} href="/onas">
               O Nas
@@ -122,14 +118,6 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li>
-          <Link
-            href="/cennik"
-            className="hover:underline active:text-primary transition-colors duration-100"
-          >
-            Cennik
-          </Link>
-        </li>
         <li>
           <Link
             href="/onas"

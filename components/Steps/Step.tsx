@@ -8,21 +8,25 @@ const data = [
     title: "Telefoniczna konsultacja",
     description:
       "Skontaktuj się z nami telefonicznie, aby omówić swoje potrzeby transportowe. Nasi eksperci są dostępni, aby doradzić i odpowiedzieć na wszelkie pytania.",
+    img: "phone.jpg",
   },
   {
     title: "Ustalenie szczegółów",
     description:
       "Po wstępnej konsultacji, ustalamy wszystkie szczegóły dotyczące transportu, w tym terminy, trasę oraz specyfikę ładunku, aby zapewnić bezproblemowy przebieg usługi.",
+    img: "talk.jpg",
   },
   {
     title: "Realizacja przewozu",
     description:
       "Nasi doświadczeni operatorzy realizują transport zgodnie z ustaleniami, dbając o bezpieczeństwo i terminowość. Każdy etap jest monitorowany, aby zapewnić najwyższą jakość usług.",
+    img: "transport.jpg",
   },
   {
     title: "Zadowolenie klienta",
     description:
       "Po zakończeniu usługi upewniamy się, że jesteś w pełni zadowolony z wykonanej pracy. Twoje opinie i satysfakcja są dla nas najważniejsze.",
+    img: "client.jpg",
   },
 ];
 

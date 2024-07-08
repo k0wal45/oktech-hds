@@ -1,12 +1,11 @@
 import { FaClock, FaPhoneAlt, FaRegCheckCircle } from "react-icons/fa";
-import classes from "../backgrounds.module.css";
 import AppearFromLeft from "./Animations/AppearFromLeft";
 import AppearFromBottom from "./Animations/AppearFromBottom";
 import AppearFromRight from "./Animations/AppearFromRight";
 
 const ContactPanel = () => {
   return (
-    <section className="bg-primary flex min-h-[15vh] w-full flex-col items-center justify-around gap-12 p-4 px-4 py-12 text-neutral-900 lg:flex-row lg:py-4 2xl:px-64">
+    <section className="bg-primary flex min-h-[15vh] w-full flex-col items-start lg:items-center justify-around gap-12 p-4 px-4 py-12 text-neutral-900 lg:flex-row lg:py-4 2xl:px-64">
       <AppearFromLeft>
         <div className="flex items-center justify-center gap-4">
           <p className="aspect-square rounded-full bg-neutral-900 p-4 text-3xl text-primary">

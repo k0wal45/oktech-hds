@@ -2,6 +2,7 @@ import React from "react";
 import AppearFromLeft from "../Animations/AppearFromLeft";
 import { FaHelmetSafety } from "react-icons/fa6";
 import Image from "next/image";
+import AppearFromRight from "../Animations/AppearFromRight";
 
 const About = () => {
   return (
@@ -25,31 +26,34 @@ const About = () => {
         </p>
       </AppearFromLeft>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-xl text-neutral-600 tracking-wider place-items-center">
-        <Image
-          width={1000}
-          height={800}
-          alt=""
-          src="/img/construction.jpg"
-          className="rounded-2xl lg:aspect-square w-full object-cover md:col-span-2 lg:col-span-1"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis
-          quia placeat incidunt perspiciatis optio, quisquam officiis temporibus
-          assumenda similique repellendus reiciendis modi labore unde ipsum
-          consequatur adipisci laborum eligendi facilis tempora atque minus
-          explicabo. Ipsa accusamus provident, enim nemo iusto, totam
-          accusantium adipisci, officia libero non rerum modi incidunt.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis
-          quia placeat incidunt perspiciatis optio, quisquam officiis temporibus
-          assumenda similique repellendus reiciendis modi labore unde ipsum
-          consequatur adipisci laborum eligendi facilis tempora atque minus
-          explicabo. Ipsa accusamus provident, enim nemo iusto, totam
-          accusantium adipisci, officia libero non rerum modi incidunt.
-        </p>
-      </div>
+      <AppearFromRight>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-xl text-neutral-600 tracking-wider place-items-center">
+          <Image
+            width={1000}
+            height={800}
+            alt=""
+            src="/img/construction.jpg"
+            className="rounded-2xl lg:aspect-square w-full object-cover md:col-span-2 lg:col-span-1"
+          />
+          <p>
+            Nasza firma, założona w 2011 roku, wyrosła na bazie doświadczeń
+            zdobytych w branży montażu okien. Od samego początku postawiliśmy na
+            najwyższą jakość usług i indywidualne podejście do każdego klienta.
+            Jesteśmy dwuosobowym zespołem, który łączy wieloletnie doświadczenie
+            z pasją do transportu i szerokiego zakresu usług technicznych.
+            Dzięki temu, możemy zapewnić naszym klientom kompleksowe
+            rozwiązania, które odpowiadają na ich specyficzne potrzeby.
+          </p>
+          <p>
+            Oferujemy transport HDS, usługi zwyżki, montaż i serwis klimatyzacji
+            oraz wynajem autolawety. Nasze wieloletnie doświadczenie pozwala nam
+            świadczyć usługi na najwyższym poziomie, gwarantując terminowość,
+            profesjonalizm i bezpieczeństwo. Bez względu na to, czy potrzebujesz
+            transportu ciężkich ładunków, wynajmu autolawety, czy też montażu
+            klimatyzacji, możesz liczyć na naszą fachową pomoc i doradztwo.
+          </p>
+        </div>
+      </AppearFromRight>
     </section>
   );
 };
