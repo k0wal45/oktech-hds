@@ -65,7 +65,7 @@ const Expert = () => {
             <Image
               width={600}
               height={800}
-              src="/img/sunset.jpg"
+              src="/img/Photos/oktech (27).jpg"
               alt="Dariusz Kowalski"
               className="object-cover w-full h-full"
             />
