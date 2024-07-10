@@ -36,7 +36,7 @@ const FAQ = () => {
         <Image
           width={800}
           height={800}
-          src="/img/sunset.jpg"
+          src="/img/sunset.webp"
           alt=""
           className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
         />
