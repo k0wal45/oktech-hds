@@ -32,7 +32,7 @@ const Other = () => {
           title="Montaż i serwis kliamtyzacji"
           desc="Montaż i serwis klimatyzacji w biurach, domach, mieszkaniach oraz kontenerach, zapewniając komfortowe warunki w każdej przestrzeni"
           icon={<FaTruck />}
-          link="https:klima-serwis.eu/"
+          link="https://klima-serwis.eu/"
           img="klima.jpg"
         />
       </div>
