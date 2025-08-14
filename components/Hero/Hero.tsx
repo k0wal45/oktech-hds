@@ -16,16 +16,6 @@ const Hero = () => {
           </h1>
         </Reveal>
 
-        <Link
-          href="/cennik"
-          className="py-2 px-6 bg-transparent text-center text-neutral-900 font-bold transition-all duration-300 bg-white rounded-xl
-            flex items-center justify-center gap-4
-            hover:bg-gray-200
-            active:translate-x-[4px] active:translate-y-[4px] active:shadow-none
-            "
-        >
-          Sprawdź nasz cennik
-        </Link>
       </section>
 
       <section className=" flex items-end justify-end">
