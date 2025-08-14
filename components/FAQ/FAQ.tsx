@@ -19,12 +19,6 @@ const FAQ = () => {
             </p>
             +48 604 47 66 47
           </li>
-          <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg whitespace-nowrap w-fit">
-            <p className="text-primary">
-              <FaCheck />
-            </p>
-            +48 604 47 66 47
-          </li>
 
           <li className="bg-white p-[2px] px-2 flex items-center gap-2 font-semibold text-neutral-600 text-lg rounded-lg whitespace-nowrap w-fit">
             <p className="text-primary">
